@@ -12,7 +12,9 @@ pip install python-Levenshtein
 
 # WARNING
 
-this is absolutely slow as shit. do not run this on a long string if you value your CPU. i could probably optimise this but frankly i don't care enough
+1. this assumes you're on a linux computer with some kind of coherent file at ```/usr/share/dict/words``` if you don't have this, find your own dictionary and substitute it in the code.
+
+2. this is absolutely slow as shit. do not run this on a long string if you value your CPU. i could probably optimise this but frankly i don't care enough
 
 ## usage
 
